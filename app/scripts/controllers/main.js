@@ -169,7 +169,7 @@ angular.module('bmf')
 
     // Initiate the app
     $scope.init();
-    window.branch.init('key_live_hkDytPACtipny3N9XmnbZlapBDdj4WIL', function(err, data) {
+    window.branch.init('key_live_hcnegAumkH7Kv18M8AOHhfgiohpXq5tB', function(err, data) {
       if (!err) {
         $scope.load(data);
       }
